@@ -12,9 +12,9 @@ Fronend en React: [View Repo](https://github.com/lbarberena/react-calendar-app.g
 
 ## Endpoints
 
-- `/auth`: POST method to login (requires: email: string & password: string),
--`/auth/new`: POST method to register new users (requires: email: string, name: string & password: string),
-- `/auth/renew`: GET method to renew the auth token,
+- `/auth`: POST method to login (requires: email: string & password: string).
+- `/auth/new`: POST method to register new users (requires: email: string, name: string & password: string).
+- `/auth/renew`: GET method to renew the auth token.
 - `/events`: GET method, will response with all existing events.
 - `/events`: POST method to save a new event (requires: title: string, notes: string, start: Date, end: Date).
 - `/events/{eventId}`: GET method, will response with an event based on the event id.
