@@ -22,17 +22,17 @@ Fronend en React: [View Repo](https://github.com/lbarberena/react-calendar-app.g
 - `/events/{eventId}`: DELETE method to erase an specific event.
 
 ### Example Auth's endpoints responses
-`
+```
 {
   "ok": true,
   "uid": "622aa3f7c5269009d31aa7da",
   "name": "My Name",
   "token": "token goes here"
 }
-`
+```
 
 ### Example event's endpoints responses (GET)
-`
+```
 {
   "ok": true,
   "eventos": [
@@ -49,10 +49,10 @@ Fronend en React: [View Repo](https://github.com/lbarberena/react-calendar-app.g
     }
   ]
 }
-`
+```
 
 ### Example event's endpoints responses (GET)
-`
+```
 {
   "ok": true,
   "eventos": [
@@ -69,10 +69,10 @@ Fronend en React: [View Repo](https://github.com/lbarberena/react-calendar-app.g
     }
   ]
 }
-`
+```
 
 ### Example event's endpoints responses (POST & PUT)
-`
+```
 {
   "ok": true,
   "evento": {
@@ -84,12 +84,12 @@ Fronend en React: [View Repo](https://github.com/lbarberena/react-calendar-app.g
     "id": "622b9157bb9d2316588689b8"
   }
 }
-`
+```
 
 ### Example event's endpoints responses (DELETE)
-`
+```
 {
   "ok": true,
   msg: 'Event successfully deleted'
 }
-`
+```
